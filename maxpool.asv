@@ -1,0 +1,11 @@
+
+
+function [maxele] = maxpool(xmat)
+for x=1:(size(xmat,1)/2) %skip a 
+    for y=1:(size(xmat,2)/2)
+
+        maxele(x,y)=max(xmat(2*(x)-1:2*x,2*(y)-1:2*y),[],'all');
+    end
+end
+
+return
