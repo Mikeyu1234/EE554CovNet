@@ -73,7 +73,7 @@ dzdbnumeric =  dot(deriv(:),dzdy(:));
 
 %we will just compare them by eye
 %this could be more fancy, like computing max abs diff between the two
-fprintf('comparison of analytic and numerical derivs conv backprop\n');
+fprintf('comparison of analytic and numerical derivs fc backprop\n');
 fprintf('comparing dz/db values\n');
 dzdb
 dzdbnumeric
